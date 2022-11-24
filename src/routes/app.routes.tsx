@@ -9,6 +9,7 @@ import { Products } from "../screens/Products";
 import { Upload } from "../screens/Upload";
 import { Platform } from "react-native";
 import { SignIn } from "../screens/SignIn";
+import { SignUp } from "../screens/SignUp";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -58,6 +59,7 @@ export function AppRoutes() {
         }}
       />
       <Screen name="SignIn" component={SignIn} />
+      <Screen name="SignUp" component={SignUp} />
     </Navigator>
   );
 }
